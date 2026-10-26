@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KV Studio — Crie seu roteiro de vídeo</title>
+<meta name="description" content="Organize ideias para vídeos com o criador de roteiros do KV Studio.">
+<meta name="theme-color" content="#080b10"><link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="studio.css"><script src="studio.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#principal">Pular para o conteúdo</a>
+<header class="top"><a class="logo" href="index.html" aria-label="KV Agência — voltar ao início"><span>KV</span> AGÊNCIA</a><nav aria-label="Navegação"><a href="index.html#solucoes">Planos</a><a href="index.html#contato">Contato ↗</a></nav></header>
+<main id="principal">
+<section class="intro"><div><p class="overline"><span></span> UMA IDEIA. UMA HISTÓRIA.</p><h1>Seu próximo vídeo <em>começa aqui.</em></h1><p>Transforme sua ideia em uma estrutura de roteiro para reels, anúncios ou vídeos de apresentação.</p><a class="button" href="#criador">Começar a criar <span>↗</span></a><p class="notice">Gratuito · No navegador · Sem cadastro</p></div><div class="visual" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="play">▶</div><div class="visual-label">KV STUDIO <span> / CRIE COM INTENÇÃO</span></div><div class="visual-bottom">IDEIA <i>→</i> HISTÓRIA <i>→</i> AÇÃO</div></div></section>
+<section id="criador" class="workspace"><div class="section-head"><p class="overline">01 / CRIADOR DE ROTEIROS</p><h2>Da ideia ao <em>primeiro rascunho.</em></h2><p>Preencha as informações e receba uma estrutura editável. O resultado é um modelo baseado nas suas respostas, sem inteligência artificial: revise e personalize antes de gravar.</p></div>
+<div class="layout"><form id="studio-form"><div class="form-head"><span>01</span><div><h3>Conte sua ideia</h3><p>Os campos marcados com * são obrigatórios.</p></div></div>
+<label for="topic">Tema do vídeo *</label><input id="topic" required maxlength="150" placeholder="Ex.: como escolher um site para seu negócio">
+<label for="audience">Para quem é esse vídeo? *</label><input id="audience" required maxlength="150" placeholder="Ex.: donos de pequenos negócios">
+<label for="goal">Objetivo do vídeo *</label><select id="goal" required><option value="">Selecione uma opção</option><option>Apresentar um serviço</option><option>Ensinar algo</option><option>Divulgar uma oferta</option><option>Gerar conexão com o público</option></select>
+<label for="format">Formato</label><select id="format"><option>Reels / vídeo curto</option><option>Vídeo de apresentação</option><option>Anúncio</option><option>Vídeo para YouTube</option></select>
+<label for="message">Mensagem principal *</label><textarea id="message" required maxlength="700" rows="4" placeholder="Qual é a principal ideia que você quer transmitir?"></textarea>
+<label for="action">O que o público deve fazer ao final? *</label><input id="action" required maxlength="150" placeholder="Ex.: entre em contato pelo Instagram">
+<button class="button" type="submit">Criar estrutura de roteiro <span>↗</span></button><p class="privacy">Suas respostas ficam neste navegador e não são enviadas a servidores.</p></form>
+<div class="result-panel"><div class="form-head"><span>02</span><div><h3>Seu roteiro</h3><p>Um ponto de partida para sua história.</p></div></div><div class="empty" id="empty"><div class="empty-icon">✳</div><h4>Sua ideia tem potencial.</h4><p>Preencha o formulário para criar sua primeira versão.</p></div><div id="result" hidden><label for="script-result">Edite e personalize seu roteiro</label><textarea id="script-result" rows="17"></textarea><div class="result-actions"><button class="button secondary" type="button" id="copy">Copiar roteiro</button><button class="button secondary" type="button" id="download">Baixar .txt</button></div><p id="feedback" class="privacy" role="status" aria-live="polite"></p></div></div></div></section>
+<section class="bottom"><p class="overline">A SUA IDEIA, DO SEU JEITO</p><h2>Vamos construir algo <em>memorável?</em></h2><p>Precisa de uma presença digital profissional? Converse com a KV Agência.</p><a class="button" href="index.html#contato">Falar sobre meu projeto ↗</a></section>
+</main><footer><a class="logo" href="index.html"><span>KV</span> AGÊNCIA</a><p>KV Studio · Uma ideia, muitas possibilidades.</p><a href="index.html">Voltar ao site ↗</a></footer>
+</body></html>
