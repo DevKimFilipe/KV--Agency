@@ -4468,3 +4468,86 @@ body {
 #solucoes .plans .plan-price { color: #f4f7ff; font-size: clamp(1.9rem, 3vw, 2.7rem); font-weight: 700; letter-spacing: -.04em; margin: 0 0 18px; }
 
 .studio-teaser{display:grid;grid-template-columns:1fr .7fr;align-items:center;gap:3rem;padding-top:110px;padding-bottom:110px}.studio-teaser h2{font-size:clamp(2.5rem,5vw,4.5rem);line-height:1.05}.studio-teaser p:not(.eyebrow){max-width:34rem;color:#aebbd1;margin:1.5rem 0 2rem}.studio-teaser-art{min-height:250px;border:1px solid #283a61;background:radial-gradient(circle at center,#28387f,#11172d 50%,#090d19);border-radius:20px;display:flex;align-items:center;justify-content:space-around;color:#a6b6e7;font-size:.7rem;letter-spacing:.1em}.studio-teaser-art strong{display:grid;place-items:center;width:86px;height:86px;border:1px solid #a4b9ff;border-radius:50%;color:#fff;font-size:2rem}@media(max-width:700px){.studio-teaser{grid-template-columns:1fr;padding-top:75px;padding-bottom:75px}.studio-teaser-art{min-height:180px}}
+
+/* KV Agência — direção cinematográfica: azul-noite, luz fria e dourado suave. */
+:root{--bg:#070b13;--panel:#111b2b;--line:#344158;--text:#f5f2eb;--muted:#b8c2cf;--accent:#e9c88e}
+body{background:#070b13;color:#f5f2eb}
+.header{background:rgba(7,11,19,.90);backdrop-filter:blur(16px)}
+.reference-hero{background:radial-gradient(ellipse at 74% 37%,#263855 0%,#111b2b 29%,#070b13 68%);position:relative;overflow:hidden}
+.reference-hero::after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(180deg,transparent 67%,rgba(7,11,19,.9)),linear-gradient(90deg,rgba(7,11,19,.3),transparent 65%)}
+.hero-reference-layout,.hero-control{position:relative;z-index:1}
+.reference-hero h1{letter-spacing:-.075em;text-shadow:0 5px 40px #0007}
+.reference-hero h1 span{background:linear-gradient(110deg,#f4ddb4,#c1d7ef 72%,#e8c891);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero-kicker,.hero-values,.hero-scroll{color:#dfc79d}
+.hero-art img{filter:saturate(.68) contrast(1.08);opacity:.9}
+.button:not(.secondary),.final-cta .button{background:#eacb98;color:#111820;border:1px solid #eacb98;box-shadow:none}
+.button:not(.secondary):hover{background:#f6dfb8;color:#101722;transform:translateY(-2px)}
+.hero-secondary{border-color:#8a98ac;color:#edf1f7}
+.featured-services{background:#0c1421;border-color:#354153}
+.featured-index,.featured-copy a,.eyebrow,.service[open] h3,.service-plus,.tag,#agencia .text-link,#solucoes .plans .tag,#solucoes .plans .text-link{color:#e7ca9c}
+#agencia,#solucoes{background:#0d1522;color:#f5f2eb}
+#agencia em,#solucoes em{color:#e8ca9a}
+#solucoes .plans{border-color:#465065}
+#solucoes .plans article:nth-child(2){background:linear-gradient(150deg,#202d42,#101a2a)}
+#solucoes .plans article{padding-top:44px;padding-bottom:44px}
+#solucoes .plans h3{min-height:0;margin-top:20px}
+#solucoes .plans li{line-height:1.7}
+#solucoes .plans .text-link{margin-top:auto;padding:18px 0 4px;font-weight:700}
+#projetos{background:#080d16}
+.route-options>a:hover{background:#172235}
+.final-cta{background:#e9c996;color:#111820}
+.final-cta .eyebrow,.final-cta p{color:#242c37}
+.final-cta .button.dark{background:#111820;color:#fff;border-color:#111820}
+.contact-result{border:1px solid #54627a}
+.contact-result textarea{color:#f4f4ee;background:#111a27}
+:focus-visible{outline:3px solid #f3d6a5;outline-offset:4px}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
+
+/* Edição KV: identidade editorial, com ritmo visual e voz própria. */
+.reference-hero{isolation:isolate;min-height:clamp(690px,88vh,910px);background:#060b13}
+.reference-hero::before{content:"";position:absolute;inset:0;z-index:0;pointer-events:none;background:linear-gradient(90deg,transparent calc(50% - .5px),#ffffff0d 50%,transparent calc(50% + .5px));opacity:.7}
+.reference-hero .hero-copy{position:relative;z-index:4;max-width:760px;padding-top:30px}
+.reference-hero h1{font-size:clamp(3rem,5.5vw,6.2rem);line-height:.99;max-width:850px;letter-spacing:-.075em;font-weight:600}
+.reference-hero h1 span{font-weight:400;background:linear-gradient(100deg,#f0d4a1,#f7ead6 55%,#9eb6d2);background-clip:text;-webkit-background-clip:text;color:transparent}
+.reference-hero .hero-kicker{color:#e6cda4;font-size:.62rem;letter-spacing:.18em;margin-bottom:35px}
+.reference-hero .hero-lead{font-size:clamp(.96rem,1.2vw,1.15rem);line-height:1.75;max-width:470px;color:#c5ced9}
+.reference-hero .hero-values{color:#c3cbd5;letter-spacing:.18em}
+.reference-hero .hero-art{right:-5%;width:68%;opacity:.9}
+.reference-hero .hero-art>img{filter:saturate(.48) brightness(.6);opacity:.67;object-position:center}
+.reference-hero .hero-art:after{background:linear-gradient(90deg,#070b13 2%,#070b13aa 25%,transparent 65%),linear-gradient(0deg,#070b13 0%,transparent 30%)}
+.glass-panel{box-shadow:none;background:#0b1421a8;border-color:#c8ac7a66;color:#ead3ac}
+.kv-hero-seal{position:absolute;z-index:3;right:20%;top:22%;width:clamp(190px,24vw,350px);aspect-ratio:1;border:1px solid #d8bc8a88;border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#eedbbd;gap:8px;background:radial-gradient(circle,#c9a87419,transparent 67%);box-shadow:inset 0 0 0 16px #d8bc8a08,0 0 90px #c9a87410}
+.kv-hero-seal:before,.kv-hero-seal:after{content:"";position:absolute;inset:-18px;border:1px solid #d8bc8a38;border-radius:50%;transform:scaleX(1.16) rotate(-24deg)}
+.kv-hero-seal:after{inset:20px;transform:scaleX(.9) rotate(24deg)}
+.kv-hero-seal strong{font-size:clamp(5rem,10vw,9rem);line-height:1;font-weight:500;letter-spacing:-.14em;padding-right:.14em}
+.kv-hero-seal span{font: .53rem var(--mono);letter-spacing:.14em;text-align:center}
+.kv-manifesto{background:#eeeae1;color:#15202a;padding:clamp(75px,10vw,150px) 0;overflow:hidden}
+.kv-manifesto-grid{display:grid;grid-template-columns:1fr 1fr;gap:30px 9%;position:relative}
+.kv-overline{font: .65rem var(--mono);letter-spacing:.13em;color:#596672;grid-column:1 / -1;margin:0 0 30px}
+.kv-overline span{color:#a27235;margin-left:12px}
+.kv-manifesto h2{font-size:clamp(3.2rem,6.2vw,6.8rem);line-height:.99;letter-spacing:-.075em;position:relative;z-index:1}
+.kv-manifesto h2 em{color:#926f47;font-weight:400}
+.kv-manifesto-copy{position:relative;z-index:1;max-width:390px;align-self:end;padding-bottom:15px;font-size:1rem;line-height:1.85;color:#36424b}
+.kv-manifesto-copy a{display:inline-block;margin-top:15px;border-bottom:1px solid #a27235;padding:0 0 8px;font-weight:700;color:#15202a}
+.kv-manifesto-mark{grid-column:1 / -1;border-top:1px solid #b9b5ad;padding-top:25px;display:flex;align-items:flex-end;justify-content:space-between;font-size:clamp(4rem,12vw,11rem);font-weight:700;line-height:.8;letter-spacing:-.15em;color:#d5cbbc}
+.kv-manifesto-mark span{margin-right:auto}
+.kv-manifesto-mark small{font: .6rem var(--mono);letter-spacing:.12em;line-height:1.7;color:#6c7478;text-align:right}
+#solucoes .plans article{border-top:1px solid #a5875b55}
+#solucoes .plans h3{font-size:clamp(1.5rem,2.1vw,2rem);line-height:1.12}
+.studio-teaser-art{background:radial-gradient(circle,#7c694d55,#182332 55%,#090d19);border-color:#9a815a66}
+@media(max-width:800px){.reference-hero{min-height:720px}.reference-hero .hero-art{width:95%;right:-42%;opacity:.55}.kv-hero-seal{top:18%;right:25%;width:210px}.reference-hero .hero-copy{padding-top:25px}.kv-manifesto-grid{grid-template-columns:1fr;gap:10px}.kv-manifesto-copy{max-width:520px}.kv-manifesto-mark{margin-top:35px}}
+@media(max-width:520px){.reference-hero{min-height:720px}.reference-hero h1{font-size:clamp(2.6rem,10.8vw,4rem);line-height:1.02}.reference-hero .hero-kicker{max-width:260px;line-height:1.8}.reference-hero .hero-art{width:110%;right:-58%;top:5%;height:65%;opacity:.4}.kv-hero-seal{width:165px;right:22%}.kv-hero-seal strong{font-size:5rem}.kv-hero-seal span{font-size:.4rem}.kv-manifesto{padding:80px 0}.kv-manifesto h2{font-size:clamp(3rem,12vw,4.5rem)}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
+
+/* Rolagem cinematográfica: anima o que entra sem esconder conteúdo quando JS falha. */
+.cinema-chapter{position:fixed;z-index:20;left:18px;top:50%;display:flex;align-items:center;gap:10px;writing-mode:vertical-rl;transform:translateY(-50%) rotate(180deg);color:#d6c39e;font:.56rem var(--mono);letter-spacing:.16em;pointer-events:none;opacity:.8}
+.cinema-chapter-line{height:35px;width:1px;background:#d6c39e}
+.kv-hero-seal{transform:translate3d(0,var(--cinema-drift,0px),0);will-change:transform}
+@keyframes cinema-enter{from{opacity:.35;transform:translate3d(0,38px,0)}to{opacity:1;transform:translate3d(0,0,0)}}
+@keyframes cinema-stage{from{opacity:.55;transform:translate3d(0,32px,0) scale(.985)}to{opacity:1;transform:translate3d(0,0,0) scale(1)}}
+.cinema-entered{animation:cinema-enter .9s cubic-bezier(.18,.65,.25,1) both}
+.project-stage.cinema-entered{animation-name:cinema-stage;animation-duration:1.1s}
+.motion-paused .cinema-entered,.motion-suspended .cinema-entered{animation:none!important;transform:none!important;opacity:1!important}
+.motion-paused .kv-hero-seal,.motion-suspended .kv-hero-seal{transform:none!important}
+@media(max-width:800px){.cinema-chapter{display:none}.kv-hero-seal{will-change:auto}}
+@media(prefers-reduced-motion:reduce){.cinema-entered{animation:none!important}.kv-hero-seal{transform:none!important}}

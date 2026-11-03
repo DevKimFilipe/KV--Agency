@@ -1,15 +1,7 @@
 /* KV Agência / navegação e orçamento guiado. Sem backend ou armazenamento. */
 "use strict";
 (() => {
-  const phone = "5582991952394";
-  const whatsappURL = (text) =>
-    `https://wa.me/${phone}?text=${encodeURIComponent(text)}`;
   document.getElementById("year").textContent = new Date().getFullYear();
-  document.querySelectorAll("[data-whatsapp]").forEach((link) => {
-    link.href = whatsappURL(
-      "Olá! Conheci a KV Agência pelo site e gostaria de conversar sobre um projeto digital.",
-    );
-  });
   const reduced = window.matchMedia("(prefers-reduced-motion: reduce)");
   const toggle = document.querySelector(".menu-toggle");
   const nav = document.getElementById("navigation");
@@ -196,7 +188,7 @@
       chooseService(link.dataset.service);
       selectedPlan = link.dataset.plan || "";
       const planNotice = document.getElementById("selected-plan");
-      planNotice.textContent = selectedPlan ? `Plano escolhido: ${selectedPlan}` : "";
+      planNotice.textContent = selectedPlan ? `Projeto escolhido: ${selectedPlan}` : "";
       planNotice.hidden = !selectedPlan;
     }
   });
@@ -231,9 +223,12 @@
     lines.push(
       `Tenho interesse em: ${value("service")}.`,
       "",
-      `Detalhes do projeto:\n${value("description")}`,
+      `Minha ideia:\n${value("description")}`,
     );
-    if (selectedPlan) lines.push("", `Plano escolhido: ${selectedPlan}`);
+    if (value("audience")) lines.push("", `Público que desejo alcançar: ${value("audience")}`);
+    if (value("goal")) lines.push(`Objetivo principal: ${value("goal")}`);
+    if (selectedPlan) lines.push(`Tipo de projeto escolhido: ${selectedPlan}`);
+    lines.push("", "Gostaria de entender as possibilidades e receber uma proposta para esse projeto.");
     const message = lines.join("\n");
     preview.value = message;
     result.hidden = false;
