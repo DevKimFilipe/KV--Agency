@@ -4551,3 +4551,6 @@ body{background:#070b13;color:#f5f2eb}
 .motion-paused .kv-hero-seal,.motion-suspended .kv-hero-seal{transform:none!important}
 @media(max-width:800px){.cinema-chapter{display:none}.kv-hero-seal{will-change:auto}}
 @media(prefers-reduced-motion:reduce){.cinema-entered{animation:none!important}.kv-hero-seal{transform:none!important}}
+
+/* Sem aviso visual quando o aparelho prefere movimento reduzido. */
+@media (prefers-reduced-motion: reduce) { .hero-control { display: none !important; } }
