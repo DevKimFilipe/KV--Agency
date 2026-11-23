@@ -1,0 +1,28 @@
+<svg width="700" height="840" viewBox="0 0 700 840" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+ <radialGradient id="light" cx="0" cy="0" r="1" gradientTransform="translate(358 420) rotate(90) scale(352 318)" gradientUnits="userSpaceOnUse"><stop stop-color="#4EADAE" stop-opacity=".27"/><stop offset=".58" stop-color="#356B6F" stop-opacity=".1"/><stop offset="1" stop-color="#090C11" stop-opacity="0"/></radialGradient>
+ <linearGradient id="edge" x1="105" y1="150" x2="607" y2="675" gradientUnits="userSpaceOnUse"><stop stop-color="#D7F5E6" stop-opacity=".13"/><stop offset=".25" stop-color="#D4F5EE" stop-opacity=".7"/><stop offset=".55" stop-color="#6EA0A1" stop-opacity=".15"/><stop offset=".83" stop-color="#E0FDF1" stop-opacity=".75"/><stop offset="1" stop-color="#A3C2B8" stop-opacity=".06"/></linearGradient>
+ <linearGradient id="ribbon" x1="110" y1="254" x2="590" y2="576" gradientUnits="userSpaceOnUse"><stop stop-color="#BEDCD5" stop-opacity=".03"/><stop offset=".24" stop-color="#D6FCED" stop-opacity=".33"/><stop offset=".45" stop-color="#42777B" stop-opacity=".09"/><stop offset=".7" stop-color="#9ECDC1" stop-opacity=".28"/><stop offset="1" stop-color="#DAEFE9" stop-opacity=".02"/></linearGradient>
+ <filter id="blur" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="21"/></filter>
+ <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+ <clipPath id="crop"><rect x="0" y="0" width="700" height="840"/></clipPath>
+</defs>
+<g clip-path="url(#crop)"><ellipse cx="340" cy="408" rx="318" ry="353" fill="url(#light)"/>
+<circle cx="342" cy="409" r="282" stroke="#BDDAD0" stroke-opacity=".17" stroke-width=".7"/><circle cx="342" cy="409" r="243" stroke="#BDDAD0" stroke-opacity=".11" stroke-width=".7"/><circle cx="342" cy="409" r="195" stroke="#BDDAD0" stroke-opacity=".1" stroke-width=".7"/><circle cx="342" cy="409" r="124" stroke="#BDDAD0" stroke-opacity=".13" stroke-width=".7"/>
+<path d="M342 52v713M-15 409h715" stroke="#C6E5DD" stroke-opacity=".11" stroke-width=".7" stroke-dasharray="3 13"/>
+<circle cx="342" cy="409" r="304" stroke="#95B8B3" stroke-opacity=".12" stroke-width="1" stroke-dasharray="2 13"/>
+<ellipse cx="342" cy="410" rx="187" ry="303" transform="rotate(38 342 410)" stroke="#AECFC8" stroke-opacity=".25" stroke-width="1"/>
+<ellipse cx="342" cy="410" rx="187" ry="303" transform="rotate(-38 342 410)" stroke="#AECFC8" stroke-opacity=".2" stroke-width="1"/>
+<path d="M75 295C220 55 538 97 616 312C693 524 497 717 274 677C54 641 18 419 157 311C297 204 485 267 528 405C563 518 468 592 373 559C269 523 298 414 371 399" stroke="#C6F5E8" stroke-opacity=".22" stroke-width="2"/>
+<path d="M95 292C238 42 549 101 616 315C682 530 492 698 282 669C63 635 27 414 161 319C299 220 482 285 515 412C541 515 460 582 376 553C282 521 302 430 376 405" stroke="#BDF6E5" stroke-opacity=".48" stroke-width="1.6"/>
+<path d="M86 289C229 54 544 101 623 312C696 533 489 712 275 670C57 641 16 417 164 308C307 207 492 283 531 411" stroke="#9AEDE0" stroke-opacity=".26" stroke-width="8" filter="url(#glow)"/>
+<path d="M263 157C333 115 463 147 500 233C547 344 442 405 365 418C267 437 188 502 230 579C260 637 366 680 444 644C565 592 587 478 570 393C546 269 390 215 286 276C180 338 157 464 211 539" stroke="url(#edge)" stroke-width="110" stroke-linecap="round" opacity=".68"/>
+<path d="M263 157C333 115 463 147 500 233C547 344 442 405 365 418C267 437 188 502 230 579C260 637 366 680 444 644C565 592 587 478 570 393C546 269 390 215 286 276C180 338 157 464 211 539" stroke="url(#ribbon)" stroke-width="102" stroke-linecap="round"/>
+<path d="M250 104C339 52 480 115 532 222C582 326 464 411 376 432C263 464 233 504 267 567C300 633 396 642 459 603C550 542 549 438 538 408C509 297 382 266 308 304C239 340 211 413 239 470" stroke="#DBFFF1" stroke-opacity=".53" stroke-width="2.3"/>
+<path d="M306 206C366 171 453 215 476 266C509 338 417 382 354 402C234 439 176 515 239 606C302 691 415 690 495 643" stroke="#9ECCC2" stroke-opacity=".5" stroke-width="1"/>
+<path d="M196 299C310 197 443 272 484 374C530 489 447 588 344 580" stroke="#DAEEE7" stroke-opacity=".15" stroke-width="26" filter="url(#blur)"/>
+<circle cx="162" cy="211" r="3.6" fill="#D5FFF2"/><circle cx="550" cy="530" r="3.6" fill="#D5FFF2"/><circle cx="394" cy="112" r="2" fill="#BDD9D3"/><circle cx="91" cy="459" r="2" fill="#BDD9D3"/>
+<path d="m151 211h-31m42-11v-25m388 355h43m-43-10v-28" stroke="#DDF7F0" stroke-opacity=".6" stroke-width="1"/>
+<path d="M44 120h57M44 120v57M657 713h-57m57 0v-57" stroke="#DAF2EA" stroke-opacity=".22" stroke-width=".8"/>
+<text x="48" y="107" fill="#D7ECE4" fill-opacity=".5" font-size="10" font-family="Arial" letter-spacing="4">DESIGN SYSTEM</text><text x="547" y="742" fill="#D7ECE4" fill-opacity=".5" font-size="10" font-family="Arial" letter-spacing="4">KV / 2026</text>
+</g></svg>
