@@ -1,5 +1,10 @@
 # KV AGENCY — Digital Flagship 2026
 
+**Live website:** https://devkimfilipe.github.io/KV--Agency/ (GitHub Pages, deployed from `main` via `.github/workflows/static.yml`).
+
+**Live form:** Formspree `https://formspree.io/f/mgakpokg`, receiving inquiries at `hello.kvstudio@gmail.com`. A real test submission was accepted on Nov 22, 2026 and recorded in the Formspree submissions inbox.
+
+
 A complete, responsive, original, English-language digital studio website built with **semantic HTML5, CSS3, vanilla JavaScript, and SVG**. No frameworks, build tools, paid APIs, tracking scripts, or externally hosted fonts.
 
 ## Pages
