@@ -44,4 +44,4 @@ Se trocar de formulário no futuro, atualize o endpoint nos arquivos `index.html
 
 Os projetos **Luma Home**, **Stoneform** e **Northline** são demonstrações criadas exclusivamente para apresentar direção criativa. Não representam contratos reais, depoimentos, resultados de clientes ou marcas registradas. Troque por trabalhos verdadeiros somente quando existirem e com autorização para exibir.
 
-O site **não foi publicado automaticamente**. A publicação depende do seu domínio, da hospedagem e da configuração real dos contatos.
+**Publicado:** https://devkimfilipe.github.io/KV--Agency/ — GitHub Pages, branch `main`, com publicação automática pelo workflow `.github/workflows/static.yml`. O formulário real foi testado com êxito em 22/11/2026; a confirmação de entrega ao Gmail pode ser conferida na caixa de entrada.
