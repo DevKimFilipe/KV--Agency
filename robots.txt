@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://devkimfilipe.github.io/KV--Agency/sitemap.xml
+Sitemap: https://kv--agency.pages.dev/sitemap.xml
